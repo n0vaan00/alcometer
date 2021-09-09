@@ -15,7 +15,7 @@ function App() {
     let left = grams - (burn * time);
   
   function handleSubmit(e) {
-    e.preventDefault();
+    e.preventDefault();  
 
     if(gender === "Female") {
       let result = left / (weight * 0.6);
